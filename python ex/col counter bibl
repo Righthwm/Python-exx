@@ -1,0 +1,5 @@
+from collections import Counter
+ch="aabcaaabccaaaa"
+c=Counter(ch)
+print(c)
+#same with lists

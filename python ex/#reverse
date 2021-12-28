@@ -1,0 +1,3 @@
+#reverse
+s="Revers!"
+print(::-1)
