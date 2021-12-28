@@ -1,0 +1,3 @@
+resource.type="http_load_balancer" resource.labels.forwarding_rule_name="voicavlad-http-forwarding-rule"
+severity=WARNING
+severity=INFO
