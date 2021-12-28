@@ -1,0 +1,3 @@
+gcloud sql connect instancegcp --user=root
+CREATE DATABASE my_db1;
+CREATE DATABASE professional_db;

@@ -1,0 +1,10 @@
+gcloud sql connect instancegcp --user=root
+CREATE DATABASE animals;
+USE animals;
+CREATE TABLE mammals (id INT NOT NULL AUTO_INCREMENT, category VARCHAR(25), environment VARCHAR(20), weight FLOAT, years INT, PRIMARY KEY(id));
+INSERT INTO mammals (category, environment, weight, years) values ('Lion','savanna',170,12);
+INSERT INTO mammals (category, environment, weight, years) values ('Tiger','rainforests',150,22);
+INSERT INTO mammals (category, environment, weight, years) values ('Horse','temperate climates',200,4);
+INSERT INTO mammals (category, environment, weight, years) values ('Sheep','temperate climates',20,2);
+INSERT INTO mammals (category, environment, weight, years) values ('Delphin','water',250,15);
+SELECT category FROM mammals ORDER BY weight desc;
